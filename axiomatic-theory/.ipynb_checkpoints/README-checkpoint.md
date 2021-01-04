@@ -3,6 +3,7 @@
 * Introduction
 * Kolmogorov's three axioms
 * Axioms consequences
+* [Probability on finite sample spaces](./finite-probability.md)
 
 ## Introduction
 
@@ -21,6 +22,8 @@ They provide mathematical abstraction of non-deterministic or uncertain processe
 > Determinism is the philosophical view that all events are determined completely by previously existing causes.
 
 Altough it is not possible to perfectly predict random events, much can be said about their behavior. Two major results in probability theory describing such behaviour are the _law of large numbers_ and _central limit theorem_.
+
+---
 
 ## Kolmogorov Axioms
 
@@ -51,6 +54,8 @@ $P( \bigcup_{i=1}^{\infty} E_i) = \sum_{i=1}^{\infty} P(E_i)$
 #### Consequence
 
 $P( \bigcup_{i=1}^{\infty} E_i) \le \sum_{i=1}^{\infty} P(E_i)$
+
+---
 
 ## Axioms consequences
 
